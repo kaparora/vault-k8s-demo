@@ -1,0 +1,11 @@
+ui:
+  enabled: true
+  serviceType: "NodePort"
+
+server:
+  dev:
+    enabled: true
+  service:
+    enabled: true
+    type: NodePort
+    nodePort: 30000
